@@ -1,0 +1,88 @@
+.row {
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+.verde {
+    background-color: #1e3932;
+    color: white;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+}
+.content img {
+    width: 50%;
+}
+
+.text{
+    max-width: 400px;
+}
+.text h1{
+    font-size: 1.875rem;
+}
+.text p{
+    font-size: 1.2rem;
+}
+
+
+.Azul {
+    background-color: #0b457f; /* Color azul */
+    color: white; /* Color de texto blanco */
+}
+.rojo {
+    background-color: #c22525; /* Color rojo */
+    color: white; /* Color de texto blanco */
+}
+
+
+.row {
+    display: flex; /* Activa el diseño flexbox */
+    align-items: center; /* Centra verticalmente los elementos */
+  }
+
+  .block-image {
+    flex: 1; /* La imagen ocupará un espacio proporcional a su contenido */
+    order: 2; /* Cambia el orden para mover la imagen a la derecha */
+  }
+
+  .block-image img {
+    max-width: 100%; /* La imagen no excederá el ancho de su contenedor */
+    height: auto; /* Mantiene las proporciones */
+  }
+
+  .text-block {
+    flex: 1; /* El texto ocupará el otro espacio disponible */
+    padding: 20px; /* Añade espacio alrededor del texto */
+    order: 1; /* Cambia el orden para mover el texto a la izquierda */
+  }
+  .custom-button {
+    background-color: transparent; /* Fondo transparente */
+    color: white; /* Texto blanco */
+    border: 2px solid white; /* Borde blanco */
+    border-radius: 30px; /* Esquinas redondeadas */
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 1.2rem; /* Tamaño de la fuente */
+    cursor: pointer; /* Cambia el cursor a "pointer" */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transiciones suaves */
+}
+
+.custom-button:hover {
+    background-color: white; /* Fondo blanco al pasar el mouse */
+    color: #c22525; /* Texto rojo */
+}
+
+
+
+ 
+          
+
+
+
+
+
+
+
+
