@@ -1,0 +1,55 @@
+/* Estilos globales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Marvel", sans-serif;
+  }
+  
+  /* Estilos del header */
+  header {
+    background-color: #E01D24;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  /* Contenedor principal de tarjetas */
+.heroes-container {
+    padding: 20px;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+
+  /* Estilos de cada tarjeta */
+.hero-card {
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    max-width: 300px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    overflow: hidden; /* Evita que el contenido se desborde fuera de los limites */
+}
+  .hero-card img{
+    width: 102%;
+    height: 350px;
+    object-fit: cover;
+    object-position: center;
+  }
+  .hero-info h2 {
+    padding: 25px;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #E01D24;
+   
+  
+
+
+  }
+  .hero-info p {
+    color: #130101;
+    line-height: 1.5;
+    font-size: 25px;
+  }
