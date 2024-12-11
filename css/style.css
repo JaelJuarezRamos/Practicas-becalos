@@ -1,6 +1,6 @@
 /* Estilo general para el menú */
 nav {
-    background-color: #333; /* Fondo oscuro */
+    background-color: #50719cef; /* Fondo oscuro */
     color: white;
     display: flex;
     flex-wrap: wrap; /* Asegura que el menú sea responsivo */
@@ -21,8 +21,8 @@ nav a {
 
 /* Hover para los enlaces */
 nav a:hover {
-    background-color: #555; /* Fondo más claro al pasar el ratón */
-    color: #ffd700; /* Color dorado para el texto */
+    background-color: #605d62; /* Fondo más claro al pasar el ratón */
+    color: #031732; /* Color dorado para el texto */
 }
 
 /* Responsividad: menú en columna para pantallas pequeñas */
